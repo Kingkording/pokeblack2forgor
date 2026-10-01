@@ -1,80 +1,268 @@
 <!DOCTYPE html>
-<html>
-<title>EmuOnline</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">    
+<title>Play Pokemon Black Version 2 Online - Free Nintendo DS Emulator</title>
+<meta name="description" content="Official Nintendo DS sequel to Pokémon Black. Explore a changed Unova region, choose your starter, and tackle the challenging post-game mode. Play now!">     
+<link rel="canonical" href="https://pokemongames.info/pokemon-black-version-2.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://data.pokemongames.info">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="theme-color" content="#121212">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Pokemon Games">
+<style>
+.logo,a{text-decoration:none}.logo-text,.main-nav a{text-transform:uppercase;font-weight:700}.btn-cta,.btn-toolbar,.exit-btn,.menu-toggle,.play-btn{cursor:pointer}.cover-content,.hero,.key-action,.key-cap,.policy-header,footer{text-align:center}:root{--primary-color:#ffcb05;--secondary-color:#3b4cca;--accent-color:#ff3e3e;--bg-dark:#121212;--bg-card:#1e1e1e;--text-light:#f5f5f5;--text-gray:#a0a0a0;--font-head:'Rajdhani',sans-serif;--font-body:'Roboto',sans-serif;--poke-red:#ef5350;--poke-dark-red:#c62828;--poke-yellow:#ffcb05;--poke-blue:#2a75bb;--poke-dark:#202020;--text-dark:#333333}*{margin:0;padding:0;box-sizing:border-box}body{font-family:var(--font-body);background-color:var(--bg-dark);color:var(--text-light);line-height:1.6}a{color:inherit;transition:.3s}ul{list-style:none}header{background-color:rgba(30,30,30,.95);padding:0 5%;height:70px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:1000;border-bottom:2px solid var(--secondary-color);backdrop-filter:blur(10px)}.logo,.main-nav ul{display:flex;align-items:center}.logo{gap:12px;z-index:1001}.logo-img{height:50px;width:auto;object-fit:contain;filter:drop-shadow(0 2px 4px rgba(0,0,0,.3));transition:transform .3s}.logo-text{font-family:Rajdhani,sans-serif;font-size:2rem;line-height:1;letter-spacing:1px;color:#ffcb05}.game-toolbar-title,.hero h1,.main-nav a,.platform-title{font-family:var(--font-head)}.logo-text span{color:#3b4cca}.logo:hover .logo-img{transform:rotate(-10deg) scale(1.1)}.main-nav ul{gap:15px}.main-nav a{font-size:1.1rem;color:#ccc;padding:5px 10px;border-radius:4px}.main-nav a:hover,.selected{color:var(--primary-color);background:rgba(255,255,255,.1)}.menu-toggle{display:none;font-size:1.8rem;background:0 0;border:none;color:var(--primary-color);z-index:1001}.hero{padding:80px 20px;background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)) center/cover,url('/images/pokemongames.webp') center/cover}.platform-title,.related-section .section-title{font-size:2rem;padding-left:15px;text-transform:uppercase}.hero h1{font-size:3.5rem;margin-bottom:1rem;text-shadow:2px 2px 4px rgba(0,0,0,.8)}.hero p{font-size:1.2rem;color:#ddd;max-width:960px;margin:0 auto}.seo-content h2,.seo-content p{margin-bottom:15px}.home-container{max-width:1400px;margin:0 auto;padding-bottom:60px;padding-top:20px}.platform-section{scroll-margin-top:90px;margin-bottom:40px}.platform-title{color:var(--primary-color);margin:0 5px 25px;border-left:5px solid var(--secondary-color)}.game-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:25px;padding:0 5px;max-width:1400px;margin:0 auto}.game-card{background-color:var(--bg-card);border-radius:12px;overflow:hidden;transition:transform .3s,box-shadow .3s;position:relative;border:1px solid #333}.game-card:hover{transform:translateY(-5px);box-shadow:0 10px 20px rgba(0,0,0,.3);border-color:var(--secondary-color)}.card-img{width:100%;height:185px;background-color:#2a2a2a;display:flex;align-items:center;justify-content:center;overflow:hidden}#gameFrame,.card-link,.card-thumb-img{width:100%;height:100%}.card-link{display:block}.card-thumb-img{transition:transform .5s}.game-card:hover .card-thumb-img{transform:scale(1.1)}.card-body{padding:15px}.card-title{font-size:1.1rem;font-weight:700;margin-bottom:5px;color:var(--text-light)}.badge{position:absolute;top:10px;right:10px;background:var(--accent-color);color:#fff;font-size:.7rem;padding:3px 8px;border-radius:4px;font-weight:700;z-index:2}.play-container{width:100%;max-width:1200px;margin:40px auto;padding:0 20px;display:flex;flex-direction:column;min-height:80vh}.game-play{background-color:var(--bg-card);color:var(--text-light);box-shadow:0 8px 30px rgba(0,0,0,.5)}.game-toolbar{display:flex;justify-content:space-between;align-items:center;padding:12px 20px;background-color:var(--poke-dark);border-bottom:4px solid var(--poke-red)}.game-toolbar-title{font-size:1.25rem;font-weight:700;color:var(--poke-yellow);text-transform:uppercase;margin:0;letter-spacing:1px}.game-toolbar-actions{display:flex;gap:10px}.btn-toolbar{display:flex;align-items:center;gap:8px;background-color:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.15);color:#fff;padding:6px 12px;border-radius:6px;font-size:.85rem;transition:.2s}.btn-toolbar:hover{background-color:var(--poke-blue);border-color:var(--poke-blue);transform:translateY(-1px)}.seo-content,footer{border-top:1px solid #333}.btn-toolbar svg{width:16px;height:16px;fill:currentColor}.game-wrapper{position:relative;width:100%;background-color:#000;aspect-ratio:16/9}@supports not (aspect-ratio:16 / 9){.game-wrapper{height:0;padding-bottom:56.25%}}.game-description{padding:40px}.game-description h2{color:var(--poke-yellow);border-bottom:2px solid #333}.related-section .section-title,.seo-content h2{color:var(--text-light);font-family:var(--font-head)}.related-section .section-title{margin-bottom:25px;border-left:5px solid var(--poke-red)}.seo-content{background:#181818;padding:60px 5%;color:#ccc}.footer-links a:hover,.seo-content h3{color:var(--primary-color)}.seo-content h3{margin-top:20px;font-size:1.4rem;font-family:var(--font-head)}.footer-links,.seo-content ul{margin-bottom:20px}.seo-content ul{margin-left:20px;list-style:disc}footer{background-color:#0f0f0f;padding:40px 5% 20px;color:#777;font-size:.9rem}.footer-links a{margin:0 10px;color:#ccc}.disclaimer{font-size:.8rem;max-width:800px;margin:20px auto}@media (max-width:900px){.main-nav a,.menu-toggle{display:block}.main-nav{position:absolute;top:70px;left:0;width:100%;background-color:rgba(20,20,20,.98);border-bottom:2px solid var(--secondary-color);transform:translateY(-150%);transition:transform .3s ease-in-out;padding-bottom:20px;box-shadow:0 10px 15px rgba(0,0,0,.5)}.main-nav.active{transform:translateY(0)}.main-nav ul{flex-direction:column;text-align:center;gap:0}.main-nav li{width:100%;border-bottom:1px solid #333}.main-nav a{padding:15px;font-size:1.2rem}.hero h1{font-size:2.5rem}.game-grid{padding-top:40px}.play-container{padding:0;margin-top:0}.game-play{border-radius:0;box-shadow:none}.game-toolbar-title{font-size:.9rem;max-width:50%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.btn-toolbar span{display:none}.game-description{padding:20px}.related-section .game-grid{grid-template-columns:repeat(2,1fr);gap:15px;padding:0 15px}}.btn-cta:hover,.play-btn:hover{transform:scale(1.05)}.game-info-content{font-size:1.05rem;line-height:1.8;color:#e6e6e6;letter-spacing:.3px;margin-top:10px}.game-info-content p,.policy-content p{margin-bottom:20px;text-align:justify}.game-info-content strong{color:var(--poke-yellow);font-weight:700;font-family:var(--font-head);font-size:1.1rem}.game-info-content ul{background:rgba(255,255,255,.08);padding:30px;border-radius:12px;border-left:6px solid var(--poke-red);margin:35px 0;list-style:none}.game-info-content li{margin-bottom:15px;position:relative;padding-left:25px}.game-info-content li::before{content:"-";position:absolute;left:0;color:var(--poke-red);font-weight:700}.game-info-content::after{content:"";display:table;clear:both}.btn-cta{background-color:var(--primary-color);color:#000;padding:12px 30px;border:none;border-radius:50px;font-size:1rem;font-weight:700;transition:transform .2s,box-shadow .2s;box-shadow:0 4px 15px rgba(255,203,5,.4)}.btn-cta:hover{background-color:#ffdb4d}.game-breadcrumb{margin-bottom:10px;font-size:.95rem;color:#aaa;padding:10px}.game-breadcrumb ol{display:flex;flex-wrap:wrap;list-style:none;padding:0;margin:0}.game-breadcrumb li{display:flex;align-items:center}.game-breadcrumb li+li::before{content:"›";margin:0 10px;color:#666;font-size:1.2rem;line-height:1}.game-breadcrumb a{color:#ccc;transition:color .2s}.game-breadcrumb a:hover{color:var(--poke-yellow);text-decoration:underline}.game-breadcrumb li.active{color:var(--poke-red);font-weight:700}.game-controls-box{background-color:var(--bg-card);border:1px solid #333;border-radius:12px;padding:20px;margin-bottom:30px;box-shadow:0 4px 15px rgba(0,0,0,.2)}.control-item:hover,.ctrl-note{background:rgba(255,255,255,.05)}.game-controls-box h3{color:var(--poke-yellow);font-family:var(--font-head);font-size:1.4rem;margin-top:0;margin-bottom:15px;text-transform:uppercase;border-bottom:2px solid #333;padding-bottom:10px}.ctrl-note{font-size:.9rem;color:#999;padding:8px 12px;border-radius:6px;margin-bottom:20px;display:inline-block}.controls-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:15px;padding:0;list-style:none}.control-item{display:flex;flex-direction:column;align-items:center;justify-content:center;background:rgba(0,0,0,.2);padding:10px;border-radius:8px;transition:background .2s}.key-cap{display:inline-block;background:#e0e0e0;color:#333;font-family:'Roboto Mono',monospace;font-weight:700;font-size:1rem;padding:5px 12px;border-radius:6px;border-bottom:4px solid #999;border-left:1px solid #ccc;border-right:1px solid #ccc;border-top:1px solid #fff;margin-bottom:8px;min-width:40px;white-space:nowrap}.key-action{font-size:.85rem;color:#ccc;line-height:1.2}@media (max-width:600px){.controls-grid{grid-template-columns:repeat(3,1fr);gap:10px}.key-cap{font-size:.9rem;padding:4px 8px;border-bottom-width:3px}.key-action{font-size:.75rem}}.related-section{padding-top:35px}.policy-container{max-width:1000px;margin:40px auto;padding:0 20px;min-height:60vh}.policy-box{background-color:var(--bg-card);border:1px solid #333;border-radius:12px;padding:40px;box-shadow:0 8px 30px rgba(0,0,0,.3)}#gameFrame,.exit-btn{position:absolute;border:none}.policy-header{border-bottom:2px solid var(--poke-red);padding-bottom:20px;margin-bottom:30px}.policy-header h1{font-family:var(--font-head);color:var(--poke-yellow);font-size:2.5rem;margin-bottom:10px;text-transform:uppercase;letter-spacing:1px}.last-updated{color:#888;font-size:.9rem;font-style:italic}.policy-content{font-family:var(--font-body);color:#e0e0e0;line-height:1.8;font-size:1.05rem}.policy-content h2{color:var(--text-light);font-family:var(--font-head);margin-top:35px;margin-bottom:15px;font-size:1.5rem;border-left:4px solid var(--poke-blue);padding-left:15px}.policy-content ul{list-style:disc;margin-left:20px;margin-bottom:20px;color:#ccc}.policy-content li{margin-bottom:10px}.policy-content a{color:var(--poke-yellow);text-decoration:underline;font-weight:700;transition:color .2s}.policy-content a:hover{color:var(--poke-red)}#gameFrame{top:0;left:0;z-index:1}.exit-btn{display:none;top:15px;right:15px;background:rgba(220,53,69,.9);color:#fff;padding:8px 16px;border-radius:30px;font-weight:700;z-index:100}.mobile-cover,.mobile-cover .bg-cover{position:absolute;top:0;left:0;height:100%;width:100%}.mobile-cover{z-index:10;background-color:#1a1a1a;display:none;justify-content:center;align-items:center;overflow:hidden}@media (max-width:768px){.game-content-thumb{float:none;margin:0 auto 30px;max-width:100%}.policy-container{padding:0 15px;margin-top:20px}.mobile-cover{display:flex}}.mobile-cover .bg-cover{object-fit:cover;opacity:.4;filter:blur(4px);z-index:1}.cover-content{position:relative;z-index:2;width:100%}.play-btn{background:linear-gradient(180deg,var(--poke-yellow) 0,#ffb300 100%);color:#000;border:none;padding:15px 40px;font-size:1.2rem;font-weight:800;border-radius:50px;box-shadow:0 0 20px rgba(255,203,5,.4);display:flex;align-items:center;gap:10px;margin:0 auto;text-transform:uppercase;transition:transform .2s}.tap-hint{color:#ddd;margin-top:10px;font-size:.9rem;text-shadow:1px 1px 2px #000}.mobile-cover.hidden{display:none!important;opacity:0;visibility:hidden;pointer-events:none;z-index:-1}.game-content-thumb{width:100%;text-align:center;margin-bottom:25px}.game-content-thumb img{border-radius:12px;border:4px solid var(--poke-yellow);box-shadow:0 8px 16px rgba(0,0,0,.6);transition:transform .3s;max-width:100%;height:auto;max-height:400px;object-fit:contain;background:#000}@media (min-width:769px){.game-content-thumb{float:right;margin-left:30px;margin-bottom:15px;width:280px}.game-content-thumb img{width:100%}}
+.game-card{display:flex;flex-direction:column;height:100%}.card-body{display:flex;flex-direction:column;flex-grow:1}.btn-play{display:block;width:100%;text-align:center;background:rgba(255,255,255,.05);color:var(--poke-yellow);font-size:.85rem;font-weight:700;padding:8px;border-radius:4px;border:1px solid rgba(255,204,0,.2);margin-top:auto}
+.article-wrapper h2.article-title,.article-wrapper h3.article-subtitle,.faq-box h3{font-family:Rajdhani,sans-serif;color:#fff}.article-wrapper{max-width:1400px;margin:50px auto;padding:0 20px;font-family:Roboto,sans-serif;color:#ccc;line-height:1.7}.article-wrapper ul.tips-list li strong,.faq-question{color:#4da6ff}.article-wrapper a,.article-wrapper a:visited{color:#4da6ff;text-decoration:none;font-weight:500;transition:color .2s ease-in-out,text-decoration .2s ease-in-out}.article-wrapper a:focus,.article-wrapper a:hover{color:#fff;text-decoration:underline;text-decoration-thickness:2px;text-decoration-color:#4da6ff}.article-wrapper h2.article-title{font-size:2.2rem;border-bottom:2px solid #2b5797;padding-bottom:10px;margin-bottom:20px}.article-wrapper h3.article-subtitle{font-size:1.6rem;margin-top:30px;margin-bottom:15px}.article-wrapper p{margin-bottom:15px;font-size:1rem}.faq-box h3,.faq-item{margin-bottom:20px}.article-wrapper ul.tips-list{margin-bottom:20px;padding-left:20px}.article-wrapper ul.tips-list li{margin-bottom:10px}.faq-box{background-color:#1a1a1a;border-radius:8px;padding:25px;margin-top:40px;border-left:4px solid #2b5797}.faq-box h3{font-size:1.5rem;margin-top:0}.faq-item:last-child{margin-bottom:0}.faq-question{display:block;font-weight:500;font-size:1.1rem;margin-bottom:8px}.faq-answer{margin:0;color:#bbb}
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0GH0YCY5H9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-0GH0YCY5H9');
+</script>
+</head>
 <body>
+<header>
+<a href="/" class="logo">
+<img src="/pokemon.png" alt="Logo" class="logo-img">    
+<div class="logo-text">
+Pokemon<span>Games</span>
+</div>
+</a>        
+<button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle Menu">
+&#9776; </button>
+<nav class="main-nav" id="mainNav">
+<ul>
+<a href="/gb/" class="">GB</a>
+<a href="/gbc/" class="">GBC</a>
+<a href="/gba/" class="">GBA</a>
+<a href="/snes/" class="">SNES</a>
+<a href="/sega/" class="">SEGA</a>
+<a href="/html5/" class="">HTML5</a>
+<a href="/flash/" class="">FLASH</a>
+<a href="/nds/" class="">NDS</a>
+<a href="/n64/" class="">N64</a>
+</ul>
+</nav>
+</header>
 
-  <!-- Sidebar -->
-  <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:15%">
 
-    <h3 class="w3-bar-item">Games</h3>
-    <input type="text" class="w3-input" placeholder="Search games...">
-    <div id="gameList"></div>
-  </div>
+    <main class="play-container">
+        <nav class="game-breadcrumb" aria-label="breadcrumb">
+  <ol>
+    <li><a href="/">Home</a></li>
+    <li><a href="/nds/">NDS</a></li>
+    <li class="active" aria-current="page">Pokemon Black Version 2</li>
+  </ol>
+</nav>
+        <section class="game-play">
+            <div class="game-toolbar">
+                <h1 class="game-toolbar-title">
+                    Pokemon Black Version 2                </h1>
+                <div class="game-toolbar-actions">
+                    <button type="button" class="btn-toolbar" onclick="enterFullscreen()" aria-label="Fullscreen">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1h-4zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zM.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5z"/></svg>
+                        <span>Fullscreen</span>
+                    </button>
+                    <button type="button" class="btn-toolbar" onclick="reloadIframe()" aria-label="Reload">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"/><path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"/></svg>
+                        <span>Reload</span>
+                    </button>
+                </div>
+            </div>
 
-  <style>
-    .info {
-      display: none;
-    }
+            <div class="game-wrapper" id="gameWrapper">
+                <button class="exit-btn" id="exitBtn" type="button" onclick="exitMobileGame()">&times; Close</button>
+                <iframe
+                    id="gameFrame"
+                    src="/embed/pokemon-black-version-2.html"
+                    allow="autoplay; fullscreen; keyboard-lock; gamepad"
+                    frameborder="0"
+                    scrolling="no"
+                    title="Play Pokemon Black Version 2"
+                ></iframe>
+                
+        <div class="mobile-cover" id="mobileCover">
+    <img src="https://data.pokemongames.info/nds-rom/pokemon-black-version-2.jpg" alt="Cover" class="bg-cover">
 
-    .icon:hover~.info {
-      display: block;
-    }
-  </style>
-
-  <!-- Page Content -->
-  <div style="margin-left:15%">
-    <div class="w3-container w3-teal">
-      <h1>EmuOnline</h1>
+    <div class="cover-content">
+        <div class="cover-actions">
+            <button class="play-btn" id="playBtn" type="button" onclick="playMobileGame()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16"><path d="M10.804 8 5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/></svg>
+                Play Game
+            </button>
+            <p class="tap-hint">Click to start emulator</p>
+        </div>
     </div>
+</div>
+            </div>
+ <div class="game-controls-box"><h3>🎮 Game Controls</h3><p class="ctrl-note"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 16 16"><path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/></svg> Click inside window to activate.</p><ul class="controls-grid"><li class="control-item">
+                    <span class="key-cap">🖱️ Mouse</span>
+                    <span class="key-action">Touch</span>
+                </li><li class="control-item">
+                    <span class="key-cap">↑ ↓ ← →</span>
+                    <span class="key-action">Move</span>
+                </li><li class="control-item">
+                    <span class="key-cap">Z</span>
+                    <span class="key-action">Btn A</span>
+                </li><li class="control-item">
+                    <span class="key-cap">X</span>
+                    <span class="key-action">Btn B</span>
+                </li><li class="control-item">
+                    <span class="key-cap">A</span>
+                    <span class="key-action">Btn X</span>
+                </li><li class="control-item">
+                    <span class="key-cap">S</span>
+                    <span class="key-action">Btn Y</span>
+                </li><li class="control-item">
+                    <span class="key-cap">Enter</span>
+                    <span class="key-action">Start</span>
+                </li><li class="control-item">
+                    <span class="key-cap">V</span>
+                    <span class="key-action">Select</span>
+                </li><li class="control-item">
+                    <span class="key-cap">1 / 2</span>
+                    <span class="key-action">Quick Save/Quick Load</span>
+                </li><li class="control-item">
+                    <span class="key-cap">+</span>
+                    <span class="key-action">Fast Fwd</span>
+                </li></ul></div>            <div class="game-description">
+                <h2>About This Game</h2>
+				<div class="game-info-content">
+        
+                <div class="game-content-thumb">
+            <img src="https://data.pokemongames.info/nds-rom/pokemon-black-version-2.jpg" alt="Pokemon Black Version 2 Box Art">
+        </div>
+                <p><strong>Introduction:</strong> <strong>Pokémon Black Version 2</strong> is an official Nintendo DS title and a direct sequel to <strong>Pokémon Black</strong>. Set in the <strong>Unova</strong> region two years after the original games, it features a new protagonist exploring a region altered by time, with some areas frozen over and others newly developed. The visual style maintains the series' shift to full 3D environments for cities and routes, with sprite-based characters and battles.</p>
+<p><strong>Gameplay & Mechanics:</strong> The game begins with a choice of the traditional starters: <strong>Snivy</strong>, <strong>Tepig</strong>, or <strong>Oshawott</strong>. It retains the core mechanics established in Generation V, including the complete <strong>Physical/Special split</strong> for moves and no <strong>Fairy</strong> type. A key addition is the <strong>Challenge Mode</strong>, unlocked after defeating the Champion, which increases opponent Pokémon levels and AI tactics, making it one of the more difficult official entries and a popular choice for structured challenges. The <strong>Pokédex</strong> is expanded to include over 300 Pokémon from various generations right from the start, breaking the tradition of a region-exclusive initial dex.</p>
+<p><strong>Key Features:</strong></p>
+<ul>
+<li><strong>Sequel Storyline and New Areas</strong>: The narrative directly continues the events of <strong>Black</strong> and <strong>White</strong>, featuring returning characters like <strong>Cheren</strong> and <strong>Bianca</strong> in new roles. New locations include <strong>Virbank City</strong>, <strong>Humilau City</strong>, and the frozen <strong>Lacunosa Town</strong>.</li>
+<li><strong>Pokéstar Studios and Join Avenue</strong>: These extensive side activities offer mini-games for making movies and a player-managed street for shopping and training, adding significant post-game content.</li>
+<li><strong>World Tournament</strong>: This major post-game facility allows battles against Gym Leaders and Champions from all previous regions, a feature highly praised for its fan service and competitive depth.</li>
+</ul>
+The game is considered a definitive and content-rich experience for the DS, effectively concluding the fifth generation.    </div>
+	
+                
+            </div>
+        </section>
 
-    <h3>Pokemon Black 2</h3>
+<section class="related-section"><h3 class="section-title">You May Also Like</h3><div class="game-grid"><div class="game-card"><a href="/pokemon-versione-platino-it.html" class="card-link" title="Pokemon: Versione Platino (IT)"><div class="card-img"><img class="lazy card-thumb-img" data-src="https://data.pokemongames.info/nds-rom/pokemon-versione-platino-it.jpg" src="/pokemon.svg" alt="Pokemon: Versione Platino (IT)"></div><div class="card-body"><div class="card-title">Pokemon: Versione Platino (IT)</div></div></a></div><div class="game-card"><a href="/pokemon-heartgold.html" class="card-link" title="Pokemon HeartGold"><div class="card-img"><img class="lazy card-thumb-img" data-src="https://data.pokemongames.info/nds-rom/pokemon-heartgold.jpg" src="/pokemon.svg" alt="Pokemon HeartGold"></div><div class="card-body"><div class="card-title">Pokemon HeartGold</div></div></a></div><div class="game-card"><a href="/pokemon-versione-argento-soulsilver.html" class="card-link" title="Pokemon: Versione Argento SoulSilver"><div class="card-img"><img class="lazy card-thumb-img" data-src="https://data.pokemongames.info/nds-rom/pokemon-versione-argento-soulsilver.jpg" src="/pokemon.svg" alt="Pokemon: Versione Argento SoulSilver"></div><div class="card-body"><div class="card-title">Pokemon: Versione Argento SoulSilver</div></div></a></div><div class="game-card"><a href="/pokemon-soulsilver-version.html" class="card-link" title="Pokemon - SoulSilver Version"><div class="card-img"><img class="lazy card-thumb-img" data-src="https://data.pokemongames.info/nds-rom/pokemon-soulsilver-version.jpg" src="/pokemon.svg" alt="Pokemon - SoulSilver Version"></div><div class="card-body"><div class="card-title">Pokemon - SoulSilver Version</div></div></a></div><div class="game-card"><a href="/pokemon-heartgold-version.html" class="card-link" title="Pokemon - HeartGold Version"><div class="card-img"><img class="lazy card-thumb-img" data-src="https://data.pokemongames.info/nds-rom/pokemon-heartgold-version.jpg" src="/pokemon.svg" alt="Pokemon - HeartGold Version"></div><div class="card-body"><div class="card-title">Pokemon - HeartGold Version</div></div></a></div><div class="game-card"><a href="/pokemon-heartgold-version-v10-eu.html" class="card-link" title="Pokemon - HeartGold Version (v10) (EU)"><div class="card-img"><img class="lazy card-thumb-img" data-src="https://data.pokemongames.info/nds-rom/pokemon-heartgold-version-v10-eu.jpg" src="/pokemon.svg" alt="Pokemon - HeartGold Version (v10) (EU)"></div><div class="card-body"><div class="card-title">Pokemon - HeartGold Version (v10) (EU)</div></div></a></div><div class="game-card"><a href="/pokemon-heart-gold-jp.html" class="card-link" title="Pokemon - Heart Gold (JP)"><div class="card-img"><img class="lazy card-thumb-img" data-src="https://data.pokemongames.info/nds-rom/pokemon-heart-gold-jp.jpg" src="/pokemon.svg" alt="Pokemon - Heart Gold (JP)"></div><div class="card-body"><div class="card-title">Pokemon - Heart Gold (JP)</div></div></a></div><div class="game-card"><a href="/pokemon-soul-silver-jp.html" class="card-link" title="Pokemon - Soul Silver (JP)"><div class="card-img"><img class="lazy card-thumb-img" data-src="https://data.pokemongames.info/nds-rom/pokemon-soul-silver-jp.jpg" src="/pokemon.svg" alt="Pokemon - Soul Silver (JP)"></div><div class="card-body"><div class="card-title">Pokemon - Soul Silver (JP)</div></div></a></div></div></section>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="/privacy-policy">Privacy Policy</a>
+            <a href="/terms-of-service">Terms of Service</a>
+            <a href="/dmca-copyright">DMCA / Copyright</a>
+        </div>
+        <p>&copy; 2026 PokemonGames.info. All rights reserved.</p>
+        <div class="disclaimer">
+            Disclaimer: Pokemon is a trademark of Nintendo, Game Freak, and Creatures. This is a fan site created for preservation and educational purposes. We are not affiliated with Nintendo.
+        </div>
+    </footer>
 
-    <div style="width:100%;height:600px;max-width:100%">
-      <div id="game"></div>
-    </div>
     <script>
-      EJS_player = "#game";
-      EJS_core = "nds";
-      EJS_gameName = "Pokemon Black2";
-      EJS_color = "#2873c3";
-      EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
-      EJS_gameUrl = "roms/Pokemon-Black2.nds";
-      EJS_biosUrl = "bios/ndsfirmware.bin";
-    </script>
-    <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
-    <div class="icon">!</div>
-    <div class="info">Click START GAME to play.
-      <p>Click the cogwheel on the right to access settings.</p>
-      <p>Customize your controls by clicking the controller icon.</p>
-      <p>You can save by clicking the floppy disk icon, and load the save by clicking the folder icon.</p>
-    </div>
-
-    <script>
-      // Function to fetch and load games.json into sidebar
-      async function loadGames() {
-        try {
-          const response = await fetch('games.json');
-          const games = await response.json();
-          const gameList = document.getElementById('gameList');
-
-          games.forEach(game => {
-            const gameLink = document.createElement('a');
-            gameLink.href = game.file;
-            gameLink.className = 'w3-bar-item w3-button';
-            gameLink.textContent = game.name;
-            gameList.appendChild(gameLink);
-          });
-        } catch (error) {
-          console.error('Error loading games:', error);
+        function toggleMenu() {
+            var nav = document.getElementById("mainNav");
+            nav.classList.toggle("active");
         }
-      }
+ document.addEventListener("DOMContentLoaded", function() {
+  
+    const focusButton = document.getElementById("focus-btn");
+    const body = document.body;
 
-      // Call the function to load games on page load
-      window.onload = loadGames;
-    </script>
+    if (focusButton) {
+        focusButton.addEventListener("click", () => {
+            body.classList.toggle("focused");
+        });
+    }
+
+
+    const lazyImages = document.querySelectorAll("img.lazy");
+    if (lazyImages.length > 0) {
+        if ("IntersectionObserver" in window) {
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.src = img.dataset.src;
+                        img.classList.add("lazy-loaded");
+                        observer.unobserve(img);
+                    }
+                });
+            });
+
+            lazyImages.forEach(img => observer.observe(img));
+        } else {
+           
+            lazyImages.forEach(img => {
+                img.src = img.dataset.src;
+                img.classList.add("lazy-loaded");
+            });
+        }
+    }
+});
+</script>
+<script>
+function playMobileGame(){var e=document.getElementById("mobileCover"),t=document.getElementById("gameFrame");if(e&&(e.classList.add("hidden"),e.style.display="none"),t){var l=t.getAttribute("src");t.src=l,t.focus()}enterFullscreen()}function enterFullscreen(){var e=document.getElementById("gameWrapper");e.requestFullscreen?e.requestFullscreen():e.webkitRequestFullscreen?e.webkitRequestFullscreen():e.msRequestFullscreen&&e.msRequestFullscreen(),window.innerWidth<768&&(document.getElementById("exitBtn").style.display="block")}function exitMobileGame(){document.exitFullscreen?document.exitFullscreen():document.webkitExitFullscreen&&document.webkitExitFullscreen(),document.getElementById("exitBtn").style.display="none"}function reloadIframe(){var e=document.getElementById("gameFrame");e.src=e.src}document.addEventListener("fullscreenchange",e=>{document.fullscreenElement||(document.getElementById("exitBtn").style.display="none")});
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Pokemon Black Version 2",
+  "description": "Official Nintendo DS sequel to Pokémon Black. Explore a changed Unova region, choose your starter, and tackle the challenging post-game mode. Play now!...",
+  "genre": ["RPG", "Adventure", "Retro"],
+  "gamePlatform": "NDS",
+  "applicationCategory": "Game",
+  "operatingSystem": "Browser",
+  "image": "",
+  "url": "https://pokemongames.info/pokemon-black-version-2.html",
+  "author": {
+    "@type": "Organization",
+    "name": "Nintendo / Game Freak"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Home",
+    "item": "https://pokemongames.info/"
+  },{
+    "@type": "ListItem",
+    "position": 2,
+    "name": "NDS",
+    "item": "https://pokemongames.info/nds/"
+  },{
+    "@type": "ListItem",
+    "position": 3,
+    "name": "Pokemon Black Version 2"
+  }]
+}
+</script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"b63e274a98714d53835a040c95fe8e04","r":1,"spa":2}' crossorigin="anonymous"></script>
 </body>
-
 </html>
